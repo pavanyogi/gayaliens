@@ -24,54 +24,6 @@ a {
     text-decoration: none;
 }
 
-.logo {
-    display: table-cell;
-    overflow-y: hidden;
-    vertical-align: middle;
-}
-
-.logotitle {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.navigation {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.navigation ul {
-    float: right;
-    max-width: calc(100vw - 480px);
-    overflow: hidden;
-}
-
-.navigation li {
-    display: inline-block;
-    margin: 5px 5px 5px 0;
-    text-decoration: none;
-}
-
-.navigation li a {
-    display: block;
-    padding: 12px 20px;
-    border: 1px solid transparent;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    -webkit-transition: opacity 300ms ease;
-    -moz-transition: opacity 300ms ease;
-    -ms-transition: opacity 300ms ease;
-    transition: opacity 300ms ease;
-}
-
-.navigation .active a {
-    border-color: inherit;
-}
-
 .gayaliens_banner {
     position: relative;
     height: 100%;
