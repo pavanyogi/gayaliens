@@ -12,7 +12,7 @@ body {
     padding: 0;
 }
 
-.container {
+.gayaliens_container {
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -87,7 +87,7 @@ a {
     background-size: cover;
 }
 
-.gayaliens_banner .container {
+.gayaliens_banner .gayaliens_container {
     padding: 90px 40px;
     padding-top: 120px;
 }
@@ -124,7 +124,7 @@ a {
     background-color: #d008c1;
 }
 
-.gayaliens_main .container {
+.gayaliens_main .gayaliens_container {
     padding: 60px 40px;
 }
 
@@ -209,7 +209,7 @@ a {
     background-color: #010002;
 }
 
-.gayaliens_roadmap .container {
+.gayaliens_roadmap .gayaliens_container {
     padding: 60px 40px;
 }
 
@@ -246,7 +246,7 @@ a {
     line-height: 1.75;
 }
 
-.gayaliens_footer .container {
+.gayaliens_footer .gayaliens_container {
     padding: 60px 40px;
 }
 
@@ -280,7 +280,7 @@ a {
 
 /*responsive*/
 @media (min-width: 320px) and (max-width: 767px) {
-    .gayaliens_banner .container {
+    .gayaliens_banner .gayaliens_container {
         padding: 80px 20px;
         padding-top: 50px;
     }
@@ -293,7 +293,7 @@ a {
         font-size: 20px;
     }
 
-    .gayaliens_main .container {
+    .gayaliens_main .gayaliens_container {
         padding: 30px 20px;
     }
 
@@ -326,11 +326,11 @@ a {
         font-size: 23px;
     }
 
-    .gayaliens_roadmap .container {
+    .gayaliens_roadmap .gayaliens_container {
         padding: 30px 20px;
     }
 
-    .gayaliens_footer .container {
+    .gayaliens_footer .gayaliens_container {
         padding: 30px 20px;
     }
 
